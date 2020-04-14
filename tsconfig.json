@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es6"],
+    "outDir": "./build",
+    "types": [],
+    "noImplicitThis": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "importHelpers": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "esModuleInterop": true
+  },
+  "files": [
+    "./index.d.ts",
+    "./assert-enhanced-tests.ts"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "<rootPath>/node_modules/"
+    ]
+  }
+}
