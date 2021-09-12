@@ -1,8 +1,8 @@
 {
   "name": "@types/assert-enhanced",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The types definitions for assert-enhanced",
-  "author": "AshLePoney <ashara.web@gmail.com>",
+  "author": "AshLePoney <20368690+AshLePoney@users.noreply.github.com>",
   "license": "MIT",
   "types": "./index.d.ts",
   "engines": {
@@ -13,10 +13,10 @@
     "lint": "dtslint ."
   },
   "devDependencies": {
-    "@types/assert-enhanced": "github:AshLePoney/node-assert-enhanced-types",
-    "@types/node": "^13.11.1",
-    "assert-enhanced": "^0.1.0",
-    "dtslint": "^3.4.1",
-    "typescript": "^3.8.3"
+    "@types/assert-enhanced": "https://github.com/AshLePoney/node-assert-enhanced/archive/refs/tags/0.2.3.tar.gz",
+    "@types/node": "^16.9.1",
+    "assert-enhanced": "^0.2.3",
+    "dtslint": "^3.4.2",
+    "typescript": "^4.4.3"
   }
 }
